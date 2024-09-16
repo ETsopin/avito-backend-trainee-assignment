@@ -1,0 +1,7 @@
+version: "1"
+services:
+  app:
+    env_file: ".env"
+    build: .
+    ports:
+        - "8080:8080"
